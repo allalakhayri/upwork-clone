@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  padding: 100px 50px;
+  flex-wrap: wrap;
+  background-color: transparent;
+ margin: 100px 40px;
+ text-align: center;
+ 
+}
+
+#form {
+
+height: 50%;
+display: flex;
+position: relative;
+height: 280px;
+}
+
+
+#fieldset {
+  
+background: #1C3879;
+border: 9px solid #eee;
+border-radius: 10px;
+}
+
+#legend {
+  font-size: 26px;
+padding: 10px;
+background:#1C3879;
+border-radius: 10px;
+color: #eee;
+}
+
+.client , .freelancer { 
+  color:  #eee;
+  font-size: 35px;
+  padding: 30px;
+
+}
+input[type=radio] {
+  align-items:flex-start;
+  border-radius: 20%;
+  width: 100%;
+  height: 2.5em;
+}
+
+
+
+
+
+.tran-btn { 
+ 
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-size: .875rem;
+  font-weight: bolder;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-38:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+  box-shadow: none;
+}
+
+
+
+#p{ 
+  text-align: center;
+  color: #1C3879;
+  font-size: 22px;
+  font-weight: bold;
+}
+#a {
+  color: #000;
+}
